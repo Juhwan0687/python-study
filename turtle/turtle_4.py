@@ -1,20 +1,3 @@
-import turtle
-t=turtle.Turtle()
-t.shape("turtle")
-t.speed(1)
-t.forward(100)
-t.pencolor("red")
-t.left(120)
-t.forward(100)
-t.pensize(5)
-t.left(120)
-t.forward(100)
-t.penup()
-t.goto(-50,86.6)
-turtle.addshape("turtle.gif")
-t.shape("turtle.gif")
-t.pendown()
-t.pen(pensize=10,pencolor="blue",speed=10)
-t.setheading(330)
-t.forward(86.6)
-turtle.done()
+s1="Hello\nworld!"
+s2="\nPython is fun!"
+print(s1,s2)
